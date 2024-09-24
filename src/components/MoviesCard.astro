@@ -13,7 +13,7 @@ const { imagenes: { destacada: imageDest, poster }, nombre, descripcion, duracio
 ---
 
 
-<a class="card bg-zinc-600 w-96 shadow-xl  hover:bg-slate-900 group cursor-pointer"
+<a class="card bg-zinc-600 max-w-96 shadow-xl  hover:bg-slate-900 group cursor-pointer"
 href={slug}>
   <figure>
     <img
@@ -24,11 +24,11 @@ href={slug}>
       
   </figure>
   <div class="card-body">
-    <h2 class="card-title" transition:name={slug}>
+    <h2 class="card-title text-2xl" transition:name={slug}>
       {nombre}
       
     </h2>
-    <p>{descripcion}</p>
+    <p class="hidden md:block">{descripcion}</p>
     <div class="card-actions justify-end">
       <div class="badge badge-outline">{`${duracion} min.`}</div>
       

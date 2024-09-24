@@ -9,9 +9,9 @@ const {pelicula} = Astro.props
 const { imagenes: { destacada: imageDest, poster }, nombre, duracion, slug, descripcion, tags, enlace, directores, fecha_salida } = pelicula
 ---
 <div class="card card-side bg-slate-900 shadow-xl max-w-[92%] mx-auto p-8">
-  <figure>
-    <Image src={poster} alt={nombre}  transition:name={`${slug}-image`} width={591} height={837} class="rounded-2xl"/>
-  </figure>
+  
+    <Image src={poster} alt={nombre}  transition:name={`${slug}-image`} width={591} height={837} class="hidden md:block rounded-2xl"/>
+  
   <div class="card-body">
     
     <h2 class="card-title text-6xl" transition:name={slug}>{nombre}</h2>
