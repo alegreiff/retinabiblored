@@ -19,7 +19,7 @@ const { title } = Astro.props;
 		<ViewTransitions />
 	</head>
 	<body>
-		<main class="container mx-auto bg-slate-700 pb-12">
+		<main class="container mx-auto bg-slate-700 pb-12 px-12">
       <NavBarDaisy />
       <slot />
     </main>
@@ -28,7 +28,7 @@ const { title } = Astro.props;
 <style is:global>
   body {
   
-  @apply h-screen text-slate-200 bg-slate-800;
+  @apply min-h-screen text-slate-200 bg-slate-800;
 
 }
 </style>
