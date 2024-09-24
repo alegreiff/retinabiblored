@@ -1,0 +1,44 @@
+---
+import MainLayout from "@/layouts/MainLayout.astro";
+---
+
+<MainLayout title="Code">
+  <h1 class="text-3xl font-bold">Código del endpoint</h1>
+  <p>Realizado con el REST-API de WordPress</p>
+  <div>
+    <div class="mockup-code">
+      <pre data-prefix="$"><code>Endpoint de pruebas</code></pre>
+      <pre data-prefix=">" class="text-warning"><code>https://retinalatina.org/wp-json/retinadata/v1/data/biblored</code></pre>
+      <pre data-prefix=">" class="text-success"><code>!!!</code></pre>
+      <pre>
+        <code is:raw>
+    {
+      nombre: "Nombre del contenido",
+      tipo_de_contenido: "película | pódcast",
+      directores: [Arreglo con los nombres de los directores],
+      fecha: "Año de publicación",
+      publicador: "Retina Latina",
+      lugar: [Arreglo con los nombres de los países de nacionalidad de la película],
+      idioma: [Arreglo con los idiomas en que está hablada la película],
+      duracion: "Duración en minutos",
+      descripcion: "Logline de la película. Extensión máxima 150 caracteres con espacios",
+      tags: [Arreglo con las etiquetas],
+      licencia: "N/D",
+      enlace: "Enlace al contenido en Retina Latina",
+      imagenes: {
+        destacada: "Imagen destacada de la película 600 X 430 px",
+        poster: "Imagen con el poster de la película 591 X 837 px"
+      },
+      fecha_salida: "Fecha de salida del contenido. 
+      Se enviarán siempre contenidos activos con, por lo menos, 
+      48 horas de vigencia en la plataforma. 
+      No se envían contenidos no disponibles",
+      geobloqueo: "Geobloqueo de la película",
+      slug: "Campo único, ideal para usar como ID"
+    },
+        </code>
+      </pre>
+    </div>
+    
+  </div>
+</MainLayout>

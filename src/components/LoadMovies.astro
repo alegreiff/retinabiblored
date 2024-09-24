@@ -1,0 +1,16 @@
+---
+import type { Pelicula } from "@/interfaces/retina";
+import MoviesCard from "./MoviesCard.astro";
+
+const peliculasLoad = await fetch("https://retinalatina.org/wp-json/retinadata/v1/data/biblored");
+const datos = await peliculasLoad.json();
+const {peliculas} = datos;
+---
+<div class="place-items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+  {
+    peliculas.map((film: Pelicula) => (
+      <MoviesCard pelicula={film} />
+    ))
+  
+  }
+</div>

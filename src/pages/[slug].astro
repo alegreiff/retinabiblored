@@ -1,0 +1,27 @@
+---
+import MovieCardSingle from '@/components/MovieCardSingle.astro';
+import type { Pelicula } from '@/interfaces/retina';
+import MainLayout from '@/layouts/MainLayout.astro';
+import { Image } from 'astro:assets';
+
+export async function  getStaticPaths () {
+  const peliculasLoad = await fetch("https://retinalatina.org/wp-json/retinadata/v1/data/biblored");
+const datos = await peliculasLoad.json();
+const {peliculas} = datos;
+  return peliculas.map((film: Pelicula) => ({
+    params: {slug: film.slug},
+    props: { film }
+    
+  }))
+
+}
+const {film} = Astro.props
+const { nombre, imagenes: {destacada, poster} } = film
+const {slug} = Astro.params
+---
+
+<MainLayout title={nombre}>
+  
+<MovieCardSingle pelicula={film}/>
+  
+</MainLayout>

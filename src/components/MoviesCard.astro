@@ -1,0 +1,37 @@
+---
+import type { GetStaticPaths } from "astro";
+import type { Pelicula } from '@/interfaces/retina'
+
+interface Props {
+pelicula: Pelicula
+
+}
+const { pelicula } = Astro.props
+const { imagenes: { destacada: imageDest, poster }, nombre, descripcion, duracion, slug } = pelicula
+
+ 
+---
+
+
+<a class="card bg-zinc-600 w-96 shadow-xl  hover:bg-slate-900 group cursor-pointer"
+href={slug}>
+  <figure>
+    <img
+      transition:name={`${slug}-image`}
+      src={imageDest}
+      class="group-hover:scale-110 duration-500"
+      alt={nombre} />
+      
+  </figure>
+  <div class="card-body">
+    <h2 class="card-title" transition:name={slug}>
+      {nombre}
+      
+    </h2>
+    <p>{descripcion}</p>
+    <div class="card-actions justify-end">
+      <div class="badge badge-outline">{`${duracion} min.`}</div>
+      
+    </div>
+  </div>
+</a>
