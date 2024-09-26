@@ -2,7 +2,7 @@
 import MovieCardSingle from '@/components/MovieCardSingle.astro';
 import type { Pelicula } from '@/interfaces/retina';
 import MainLayout from '@/layouts/MainLayout.astro';
-import { Image } from 'astro:assets';
+
 
 export async function  getStaticPaths () {
   const peliculasLoad = await fetch("https://retinalatina.org/wp-json/retinadata/v1/data/biblored");

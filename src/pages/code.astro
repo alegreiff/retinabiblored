@@ -11,30 +11,32 @@ import MainLayout from "@/layouts/MainLayout.astro";
       <pre data-prefix=">" class="text-warning"><code>https://retinalatina.org/wp-json/retinadata/v1/data/biblored</code></pre>
       <pre data-prefix=">" class="text-success"><code>!!!</code></pre>
       <pre>
-        <code is:raw>
+        <code is:raw class="text-yellow-100 retina text-xl">
     {
-      nombre: "Nombre del contenido",
-      tipo_de_contenido: "película | pódcast",
-      directores: [Arreglo con los nombres de los directores],
-      fecha: "Año de publicación",
-      publicador: "Retina Latina",
-      lugar: [Arreglo con los nombres de los países de nacionalidad de la película],
-      idioma: [Arreglo con los idiomas en que está hablada la película],
-      duracion: "Duración en minutos",
-      descripcion: "Logline de la película. Extensión máxima 150 caracteres con espacios",
-      tags: [Arreglo con las etiquetas],
-      licencia: "N/D",
-      enlace: "Enlace al contenido en Retina Latina",
-      imagenes: {
-        destacada: "Imagen destacada de la película 600 X 430 px",
-        poster: "Imagen con el poster de la película 591 X 837 px"
+      <strong class="font-bolder text-2xl">nombre</strong>: "Nombre del contenido",
+      <strong class="font-bolder text-2xl">tipo_de_contenido</strong>: "película | pódcast",
+      <strong class="font-bolder text-2xl">directores</strong>: [Arreglo con los nombres de los directores],
+      <strong class="font-bolder text-2xl">fecha</strong>: "Año de publicación",
+      <strong class="font-bolder text-2xl">publicador</strong>: "Retina Latina",
+      <strong class="font-bolder text-2xl">lugar</strong>: [Arreglo con los nombres de los países de nacionalidad de la película],
+      <strong class="font-bolder text-2xl">idioma</strong>: [Arreglo con los idiomas en que está hablada la película],
+      <strong class="font-bolder text-2xl">duracion</strong>: "Duración en minutos",
+      <strong class="font-bolder text-2xl">descripcion</strong>: "Logline de la película. Extensión máxima 150 caracteres con espacios",
+      <strong class="font-bolder text-2xl">tags</strong>: [Arreglo con las etiquetas],
+      <strong class="font-bolder text-2xl">licencia</strong>: "N/D",
+      <strong class="font-bolder text-2xl">enlace</strong>: "Enlace al contenido en Retina Latina",
+      <strong class="font-bolder text-2xl">imagenes</strong>: {
+        <strong class="font-bolder text-2xl">destacada</strong>: "Imagen destacada de la película 600 X 430 px",
+        <strong class="font-bolder text-2xl">poster</strong>: "Imagen con el poster de la película 591 X 837 px"
       },
-      fecha_salida: "Fecha de salida del contenido. 
+      <strong class="font-bolder text-2xl">temporada</strong>: "Pódcast. Temporada"
+      <strong class="font-bolder text-2xl">episodio</strong>: "Pódcast. Episodio"
+      <strong class="font-bolder text-2xl">fecha_salida</strong>: "Fecha de salida del contenido. 
       Se enviarán siempre contenidos activos con, por lo menos, 
       48 horas de vigencia en la plataforma. 
       No se envían contenidos no disponibles",
-      geobloqueo: "Geobloqueo de la película",
-      slug: "Campo único, ideal para usar como ID"
+      <strong class="font-bolder text-2xl">geobloqueo</strong>: "Geobloqueo de la película",
+      <strong class="font-bolder text-2xl">slug</strong>: "Campo único, ideal para usar como ID"
     },
         </code>
       </pre>
