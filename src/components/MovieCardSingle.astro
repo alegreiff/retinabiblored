@@ -6,7 +6,7 @@ interface Props {
   pelicula: Pelicula
 }
 const {pelicula} = Astro.props
-const { imagenes: { destacada: imageDest, poster }, nombre, duracion, slug, descripcion, tags, enlace, directores, fecha_salida } = pelicula
+const { imagenes: { destacada: imageDest, poster }, nombre, duracion, slug, descripcion, tags, enlace, directores, fecha_salida, geobloqueo } = pelicula
 ---
 <div class="card card-side bg-slate-900 shadow-xl max-w-[92%] mx-auto p-8">
   
@@ -31,7 +31,7 @@ const { imagenes: { destacada: imageDest, poster }, nombre, duracion, slug, desc
       
       <a class="btn btn-primary" target="_blank" href={enlace}>Ver en Retina Latina</a>
     </div>
-    <span>Disponible hasta: {fecha_salida}</span>
+    <span>Disponible hasta: {fecha_salida} para {geobloqueo}</span>
   </div>
   
 </div>
