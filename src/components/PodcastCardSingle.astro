@@ -1,0 +1,43 @@
+---
+import type { Podcast } from '@/interfaces/retina';
+import { Image } from 'astro:assets';
+
+interface Props {
+  podcast: Podcast
+}
+const {podcast} = Astro.props
+const { imagenes: { destacada: imageDest }, nombre, duracion, slug, descripcion, tags, enlace, directores } = podcast
+---
+<div class="card  bg-slate-900 shadow-xl max-w-[92%] mx-auto p-8">
+  
+    <Image src={imageDest} alt={nombre}  transition:name={`${slug}-image`} width={400} height={400} class="hidden md:block rounded-2xl aspect-square"/>
+  
+  <div class="card-body">
+    
+    <h2 class="card-title text-6xl" transition:name={slug}>{nombre}</h2>
+
+    <p class="prose text-3xl mt-8">{descripcion}</p>
+
+    <span>Un pódcast de: </span>
+    { directores.map(director => <span class="badge badge-neutral text-xl p-4">{director}</span>) } 
+
+
+
+    <div class="card-actions justify-end">
+      { tags.map(tag => <div class="badge badge-ghost text-xl p-4">{tag}</div>) }
+      
+    </div>
+    <div class="card-actions justify-end mt-12">
+      
+      <a class="btn btn-primary" target="_blank" href={enlace}>Escuchar en Retina Latina</a>
+    </div>
+    
+  </div>
+  
+</div>
+
+<button onclick="history.back()" class="mt-8 ml-8 btn btn-neutral" >Regresar</button>
+
+
+
+

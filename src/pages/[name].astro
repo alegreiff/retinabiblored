@@ -1,0 +1,28 @@
+---
+import MovieCardSingle from '@/components/MovieCardSingle.astro';
+import PodcastCardSingle from '@/components/PodcastCardSingle.astro';
+import type { Pelicula, Podcast } from '@/interfaces/retina';
+import MainLayout from '@/layouts/MainLayout.astro';
+import { Image } from 'astro:assets';
+
+export async function  getStaticPaths () {
+  const peliculasLoad = await fetch("https://retinalatina.org/wp-json/retinadata/v1/data/biblored");
+const datos = await peliculasLoad.json();
+const {podcast} = datos;
+  return podcast.map((pod: Podcast) => ({
+    params: {name: pod.slug},
+    props: { pod }
+    
+  }))
+
+}
+const {pod} = Astro.props
+const { nombre, imagenes: {destacada} } = pod
+const {slug} = Astro.params
+---
+
+<MainLayout title={nombre}>
+  
+<PodcastCardSingle podcast={pod}/>
+  
+</MainLayout>

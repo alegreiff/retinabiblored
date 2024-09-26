@@ -1,13 +1,14 @@
 ---
 import type { GetStaticPaths } from "astro";
-import type { Pelicula } from '@/interfaces/retina'
+import type { Pelicula, Podcast } from '@/interfaces/retina'
+import { Image } from "astro:assets";
 
 interface Props {
-pelicula: Pelicula
+podcast: Podcast
 
 }
-const { pelicula } = Astro.props
-const { imagenes: { destacada: imageDest, poster }, nombre, descripcion, duracion, slug } = pelicula
+const { podcast } = Astro.props
+const { imagenes: { destacada: imageDest }, nombre, descripcion, duracion, slug } = podcast
 console.log(slug)
  
 ---
@@ -16,9 +17,11 @@ console.log(slug)
 <a class="card bg-zinc-600 max-w-96 shadow-xl  hover:bg-slate-900 group cursor-pointer"
 href={slug}>
   <figure>
-    <img
+    <Image
       transition:name={`${slug}-image`}
       src={imageDest}
+      width={400}
+      height={400}
       class="group-hover:scale-110 duration-500"
       alt={nombre} />
       

@@ -1,10 +1,12 @@
 ---
-import type { Pelicula } from "@/interfaces/retina";
+import type { Pelicula, Podcast } from "@/interfaces/retina";
 import MoviesCard from "./MoviesCard.astro";
+import PodcastCard from "./PodcastCard.astro";
 
 const peliculasLoad = await fetch("https://retinalatina.org/wp-json/retinadata/v1/data/biblored");
 const datos = await peliculasLoad.json();
-const {peliculas} = datos;
+const {peliculas, podcast} = datos;
+
 ---
 <div class="place-items-center grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
   {
@@ -13,4 +15,11 @@ const {peliculas} = datos;
     ))
   
   }
+
+{
+  podcast.map((pod: Podcast) => (
+    <PodcastCard podcast={pod} />
+  ))
+
+}
 </div>
