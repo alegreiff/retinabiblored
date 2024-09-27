@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <root>
+     <datos>
+         <peliculas>13</peliculas>
+         <podcast>7</podcast>
+     </datos>
+     <peliculas>
+         <nombre>Todas hieren, la última mata</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Matias Luis</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Argentina</lugar>
+         <idioma>Español</idioma>
+         <duracion>13</duracion>
+         <descripcion>Eva, una viuda de 73 años, lucha en secreto contra el alzheimer, aferrándose a sus recuerdos mientras su mundo se desmorona</descripcion>
+         <tags>Alzheimer</tags>
+         <tags>Enfermedad</tags>
+         <tags>Memoria</tags>
+         <tags>Salud mental</tags>
+         <tags>Soledad</tags>
+         <tags>Vejez</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/todas-hieren-la-ultima-mata/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/09/DEST-todashierenlaultimamata.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/09/po-todashierenlaultimamata.png</poster>
+         </imagenes>
+         <fecha_salida>21/09/2026</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>todas-hieren-la-ultima-mata</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>No te agüites</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Juan Vicente Manrique Gómez</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>México</lugar>
+         <lugar>Venezuela</lugar>
+         <idioma>Español</idioma>
+         <duracion>20</duracion>
+         <descripcion>En Ayahualtempa, México, Tavo y sus amigos, de 14 años, borran la línea entre juego y seguridad al proteger su comunidad contra un grupo criminal</descripcion>
+         <tags>Día internacional de la paz</tags>
+         <tags>Guerreros</tags>
+         <tags>infancia</tags>
+         <tags>Violencia</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/no-te-aguites/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/09/DEST-noteaguites.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/09/po-noteaguites.png</poster>
+         </imagenes>
+         <fecha_salida>21/09/2026</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>no-te-aguites</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Huérfano</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Daniel Alejandro Collazos Camilo</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Colombia</lugar>
+         <duracion>3</duracion>
+         <descripcion>Un niño, testigo del asesinato de su padre, busca venganza pero enfrenta una dura decisión: matar al asesino y condenar a sus hijos a la misma tragedia</descripcion>
+         <tags>Día internacional de la paz</tags>
+         <tags>Guerra</tags>
+         <tags>Venganza</tags>
+         <tags>Violencia</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/huerfano/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/09/DEST-huerfano.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/09/po-huerfano.png</poster>
+         </imagenes>
+         <fecha_salida>21/09/2025</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>huerfano</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Silo, un camino espiritual</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Pablo Lavín</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Chile</lugar>
+         <idioma>Español</idioma>
+         <idioma>Ruso</idioma>
+         <duracion>71</duracion>
+         <descripcion>Explora la vida de un guía latinoamericano que, enfrentando represión militar, inspiró un cambio no-violento y la justicia social</descripcion>
+         <tags>Día internacional de la paz</tags>
+         <tags>Espiritualidad</tags>
+         <tags>Paz</tags>
+         <tags>Violencia</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/silo-un-camino-espiritual/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/09/DEST-silouncaminoespiritual.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/09/po-silouncaminoespiritual.png</poster>
+         </imagenes>
+         <fecha_salida>21/09/2027</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>silo-un-camino-espiritual</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Adentro</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Emmanuel Esteven Agudelo Rodríguez</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Colombia</lugar>
+         <idioma>Español</idioma>
+         <duracion>12</duracion>
+         <descripcion>Guillermo enfrenta su pasado como exparamilitar, revelando por qué abandonó la violencia para buscar una vida familiar</descripcion>
+         <tags>Día internacional de la paz</tags>
+         <tags>Familia</tags>
+         <tags>Medellín</tags>
+         <tags>Paramilitarismo</tags>
+         <tags>Retrato</tags>
+         <tags>Violencia</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/adentro/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/09/DEST-adentro.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/09/po-adentro.png</poster>
+         </imagenes>
+         <fecha_salida>21/09/2026</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>adentro</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Pantaleón</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Diana Ojeda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Colombia</lugar>
+         <idioma>Español</idioma>
+         <duracion>8</duracion>
+         <descripcion>Pantaleón, un niño de campo, enfrenta una misión suicida donde deberá disparar contra sus propios amigos</descripcion>
+         <tags>Guerra</tags>
+         <tags>Historia latinoamericana</tags>
+         <tags>Juego</tags>
+         <tags>Niños</tags>
+         <tags>Western</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/pantaleon-diana-ojeda/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/09/DEST-pantaleon.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/09/po-pantaleon.png</poster>
+         </imagenes>
+         <fecha_salida>26/12/2025</fecha_salida>
+         <geobloqueo>América Latina</geobloqueo>
+         <slug>pantaleon-diana-ojeda</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Soy</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Daniela Goto Uehara</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Perú</lugar>
+         <idioma>Español</idioma>
+         <duracion>5</duracion>
+         <descripcion>Con material de archivo familiar, una directora revive su infancia mientras explora la identidad, el cuerpo y la sensación de invisibilidad</descripcion>
+         <tags>Archivo</tags>
+         <tags>Eureka 2024</tags>
+         <tags>Mujeres</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/soy-daniela-goto-uehara/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-soy.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/08/po-soy.png</poster>
+         </imagenes>
+         <fecha_salida>05/09/2026</fecha_salida>
+         <geobloqueo>América Latina</geobloqueo>
+         <slug>soy-daniela-goto-uehara</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Muu Palaa. La abuela mar</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Luzbeidy Monterrosa Atencio</directores>
+         <directores>Olowaili Green Santacruz</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Colombia</lugar>
+         <idioma>Wayuunaiki</idioma>
+         <duracion>13</duracion>
+         <descripcion>Ina y Siruma, son guiadas por aves a un espacio onírico donde descubren la sabiduría de sus abuelas y la conexión entre sus culturas</descripcion>
+         <tags>Abuelos</tags>
+         <tags>Ancestralidad</tags>
+         <tags>Eureka 2024</tags>
+         <tags>Indígenas</tags>
+         <tags>Mujeres</tags>
+         <tags>Sueños</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/muu-palaa-la-abuela-mar-olowaili-green-luzbeidy-monterrosa/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-muu-palaa.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/08/po-muu-palaa.png</poster>
+         </imagenes>
+         <fecha_salida>05/10/2024</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>muu-palaa-la-abuela-mar-olowaili-green-luzbeidy-monterrosa</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>No hace falta Estampilla</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Verónica Balduzzi</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Argentina</lugar>
+         <idioma>Español</idioma>
+         <duracion>25</duracion>
+         <descripcion>Una mujer recorre Buenos Aires, compartiendo sus hallazgos en cartas que revelan lo inesperado en lo cotidiano. ¿Te atreves a descubrirlo?</descripcion>
+         <tags>cartas</tags>
+         <tags>Ciudad</tags>
+         <tags>Eureka 2024</tags>
+         <tags>Mujer directora</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/no-hace-falta-estampilla-veronica-balduzzi/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-nohacefaltaestampilla.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/08/po-nohacefaltaestampilla.png</poster>
+         </imagenes>
+         <fecha_salida>05/10/2024</fecha_salida>
+         <geobloqueo>América Latina</geobloqueo>
+         <slug>no-hace-falta-estampilla-veronica-balduzzi</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Hermanas del viento</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Julia Carrizo Solanas</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Argentina</lugar>
+         <idioma>Español</idioma>
+         <duracion>16</duracion>
+         <descripcion>Un viaje musical que desafió tradiciones: descubre cómo la primera Banda de Sikuris femenina de Jujuy (Argentina) conquistó su lugar</descripcion>
+         <tags>Eureka 2024</tags>
+         <tags>identidad</tags>
+         <tags>Mujeres</tags>
+         <tags>Música</tags>
+         <tags>Tradiciones</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/hermanas-del-viento-julia-carrizo-solanas/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-hermanasdelviento.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/08/po-hermanasdelviento.png</poster>
+         </imagenes>
+         <fecha_salida>05/10/2024</fecha_salida>
+         <geobloqueo>América Latina</geobloqueo>
+         <slug>hermanas-del-viento-julia-carrizo-solanas</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>La Fuente de Agua</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Irma Milagros Cabrera Abanto</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Perú</lugar>
+         <idioma>Español</idioma>
+         <duracion>3</duracion>
+         <descripcion>La yakumama, espíritu del agua del Titicaca y el río Chili, protagoniza mitos, leyendas y luchas sociales en esta historia rodada en super 8</descripcion>
+         <tags>Agua</tags>
+         <tags>Eureka 2024</tags>
+         <tags>Medio ambiente</tags>
+         <tags>Naturaleza</tags>
+         <tags>Titicaca</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/la-fuente-de-agua-irma-milagros-cabrera/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-lafuentede-agua.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/08/po-lafuentedelagua.png</poster>
+         </imagenes>
+         <fecha_salida>05/09/2026</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>la-fuente-de-agua-irma-milagros-cabrera</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Entrelazadas</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>Alejandra Morales García</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Colombia</lugar>
+         <duracion>15</duracion>
+         <descripcion>Una hija se enfrenta a su madre y abuela en una disputa generacional sobre ser mujer, desafiando las formas que moldean su identidad</descripcion>
+         <tags>Drama</tags>
+         <tags>Eureka 2024</tags>
+         <tags>Familia</tags>
+         <tags>Feminismo</tags>
+         <tags>identidad</tags>
+         <tags>Jóvenes</tags>
+         <tags>Mujeres</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/entrelazadas-alejandra-morales/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-entrelazadas.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/08/po-entrelazadas.png</poster>
+         </imagenes>
+         <fecha_salida>05/10/2024</fecha_salida>
+         <geobloqueo>América Latina</geobloqueo>
+         <slug>entrelazadas-alejandra-morales</slug>
+     </peliculas>
+     <peliculas>
+         <nombre>Cómo Repudiar A tu Padre</nombre>
+         <tipo_de_contenido>Película</tipo_de_contenido>
+         <directores>David Matteo Galarza Espinosa</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>Ecuador</lugar>
+         <idioma>Español</idioma>
+         <duracion>26</duracion>
+         <descripcion>Cuatro familias ecuatorianas debaten sobre invertir el orden de sus apellidos, cuestionando la identidad y las tradiciones patriarcales</descripcion>
+         <tags>Derechos humanos</tags>
+         <tags>Familia</tags>
+         <tags>identidad</tags>
+         <tags>Mujer</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/peliculas/como-repudiar-a-tu-padre-dsvid-matteo-galarz/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-comorepudiaratupadre.png</destacada>
+             <poster>https://www.retinalatina.org/wp-content/uploads/2024/08/po-comorepudiaratupadre.png</poster>
+         </imagenes>
+         <fecha_salida>24/07/2029</fecha_salida>
+         <geobloqueo>Todo el mundo</geobloqueo>
+         <slug>como-repudiar-a-tu-padre-dsvid-matteo-galarz</slug>
+     </peliculas>
+     <podcast>
+         <nombre>Redes del cine de los pueblos originarios</nombre>
+         <tipo_de_contenido>Pódcast</tipo_de_contenido>
+         <directores>Cristina Arévalo</directores>
+         <directores>Hernando Borda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>N/A</lugar>
+         <idioma>Español</idioma>
+         <duracion>23:43</duracion>
+         <descripcion>Nelly Kuiru revela cómo las redes de cine indígena fortalecen la resistencia y la identidad de los pueblos destacando la creación de contenidos auténticos y colaborativos</descripcion>
+         <tags>cambio social</tags>
+         <tags>Cine indígena</tags>
+         <tags>CLACPI</tags>
+         <tags>Identidad cultural</tags>
+         <tags>Pueblos originarios</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/podcast/redes-del-cine-de-los-pueblos-originarios-t01-ep6/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/portada-capitulo-6.png</destacada>
+         </imagenes>
+         <temporada>1</temporada>
+         <episodio>6</episodio>
+         <slug>redes-del-cine-de-los-pueblos-originarios-t01-ep6</slug>
+     </podcast>
+     <podcast>
+         <nombre>Viaje al territorio y la identidad</nombre>
+         <tipo_de_contenido>Pódcast</tipo_de_contenido>
+         <directores>Cristina Arévalo</directores>
+         <directores>Hernando Borda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>N/A</lugar>
+         <idioma>Español</idioma>
+         <duracion>28:35</duracion>
+         <descripcion>Álvaro y Diego Sarmiento exploran sus raíces y la crisis ambiental en Perú, usando el cine para reflejar la identidad y resistencia de los pueblos originarios</descripcion>
+         <tags>Amazonía</tags>
+         <tags>Cine indígena</tags>
+         <tags>Identidad cultural</tags>
+         <tags>Medio ambiente</tags>
+         <tags>Pueblos originarios</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/podcast/viaje-al-territorio-y-la-identidad-t01-ep5/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/08/DEST-pod-1-5.png</destacada>
+         </imagenes>
+         <temporada>1</temporada>
+         <episodio>5</episodio>
+         <slug>viaje-al-territorio-y-la-identidad-t01-ep5</slug>
+     </podcast>
+     <podcast>
+         <nombre>Preservar el cine de los pueblos originarios</nombre>
+         <tipo_de_contenido>Pódcast</tipo_de_contenido>
+         <directores>Cristina Arévalo</directores>
+         <directores>Hernando Borda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>N/A</lugar>
+         <idioma>Español</idioma>
+         <duracion>26:15</duracion>
+         <descripcion>Amalia Córdova nos cuenta cómo la práctica de preservar y digitalizar el cine indígena puede empoderar a las comunidades para gestionar su propio patrimonio audiovisual.</descripcion>
+         <tags>Archivo</tags>
+         <tags>Cine indígena</tags>
+         <tags>memoria histórica</tags>
+         <tags>Patrimonio audiovisual</tags>
+         <tags>Pueblos originarios</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/podcast/preservar-cine-pueblos-originarios-t01-ep4/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/07/DEST-pod-1-04.png</destacada>
+         </imagenes>
+         <temporada>1</temporada>
+         <episodio>4</episodio>
+         <slug>preservar-cine-pueblos-originarios-t01-ep4</slug>
+     </podcast>
+     <podcast>
+         <nombre>Tejiendo un cine Tzotzil</nombre>
+         <tipo_de_contenido>Pódcast</tipo_de_contenido>
+         <directores>Cristina Arévalo</directores>
+         <directores>Hernando Borda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>N/A</lugar>
+         <idioma>Español</idioma>
+         <duracion>29:48</duracion>
+         <descripcion>Xun Sero revela la riqueza cultural tzotzil, desafiando categorías externas con su cine de resistencia</descripcion>
+         <tags>Cine comunitario</tags>
+         <tags>Cine indígena</tags>
+         <tags>Identidad cultural</tags>
+         <tags>Pueblo Tzotzil</tags>
+         <tags>Pueblos originarios</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/podcast/tejiendo-un-cine-tzotzil-t01-ep3/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/07/DEST-pod-1-03.png</destacada>
+         </imagenes>
+         <temporada>1</temporada>
+         <episodio>3</episodio>
+         <slug>tejiendo-un-cine-tzotzil-t01-ep3</slug>
+     </podcast>
+     <podcast>
+         <nombre>Nuestro cine, un proceso de auto-representación para reconocernos y que nos reconozcan</nombre>
+         <tipo_de_contenido>Pódcast</tipo_de_contenido>
+         <directores>Cristina Arévalo</directores>
+         <directores>Hernando Borda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>N/A</lugar>
+         <idioma>Español</idioma>
+         <duracion>28:00</duracion>
+         <descripcion>Rocío Gómez, cineasta Kitu Kara de Quito nos habla sobre el cine indígena como herramienta de identidad, visibilidad y empoderamiento femenino</descripcion>
+         <tags>Cine comunitario</tags>
+         <tags>Cine indígena</tags>
+         <tags>Empoderamiento femenino</tags>
+         <tags>Identidad cultural</tags>
+         <tags>Pueblos originarios</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/podcast/nuestro-cine-proceso-auto-representacion-reconocernos-t01-ep2/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/06/DEST-pod-1-02.png</destacada>
+         </imagenes>
+         <temporada>1</temporada>
+         <episodio>2</episodio>
+         <slug>nuestro-cine-proceso-auto-representacion-reconocernos-t01-ep2</slug>
+     </podcast>
+     <podcast>
+         <nombre>Orígenes del cine de los pueblos originarios en América Latina: un encuentro con Iván Sanjinés</nombre>
+         <tipo_de_contenido>Pódcast</tipo_de_contenido>
+         <directores>Cristina Arévalo</directores>
+         <directores>Hernando Borda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>N/A</lugar>
+         <idioma>Español</idioma>
+         <duracion>29:06</duracion>
+         <descripcion>¿Cómo nace el cine indígena en latinoamérica?, ¿de qué habla?, ¿cómo es su relación con la tierra y con nosotros? Te invitamos a descubrirlo</descripcion>
+         <tags>Cine indígena</tags>
+         <tags>Comunicación</tags>
+         <tags>Madre tierra</tags>
+         <tags>Naturaleza</tags>
+         <tags>Pueblos originarios</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/podcast/origenes-del-cine-pueblos-originarios-ivan-sanjines-t01-ep1/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/06/DEST-pod-1-01.png</destacada>
+         </imagenes>
+         <temporada>1</temporada>
+         <episodio>1</episodio>
+         <slug>origenes-del-cine-pueblos-originarios-ivan-sanjines-t01-ep1</slug>
+     </podcast>
+     <podcast>
+         <nombre>Tráiler</nombre>
+         <tipo_de_contenido>Pódcast</tipo_de_contenido>
+         <directores>Cristina Arévalo</directores>
+         <directores>Hernando Borda</directores>
+         <fecha>2024</fecha>
+         <publicador>Retina Latina</publicador>
+         <lugar>N/A</lugar>
+         <idioma>Español</idioma>
+         <duracion>01:10</duracion>
+         <descripcion>"Revélate" te lleva en un viaje por el cine de Latinoamérica, explorando nuevas culturas y cosmovisiones. ¡Atrévete a revelar tus historias.</descripcion>
+         <tags>ancestral</tags>
+         <tags>Cine indígena</tags>
+         <tags>Indígenas</tags>
+         <tags>Patrimonio</tags>
+         <tags>Tradiciones</tags>
+         <licencia></licencia>
+         <enlace>https://www.retinalatina.org/podcast/trailer-t01-ep0/</enlace>
+         <imagenes>
+             <destacada>https://www.retinalatina.org/wp-content/uploads/2024/06/DEST-pod-1-00.png</destacada>
+         </imagenes>
+         <temporada>1</temporada>
+         <episodio>0</episodio>
+         <slug>trailer-t01-ep0</slug>
+     </podcast>
+ </root>
